@@ -1,0 +1,11 @@
+{
+  "name": "es-generate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lukasolson/es-generate.git",
+  "author": "Lukas Olson <olson.lukas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.16.0"
+  }
+}

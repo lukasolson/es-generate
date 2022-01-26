@@ -1,0 +1,113 @@
+{
+  "timestamp": {
+    "type": "date",
+    "min": 1611684538938,
+    "max": 1644430138938
+  },
+  "agent": {
+    "type": "text",
+    "size": 10
+  },
+  "bytes": {
+    "type": "integer",
+    "max": 20000
+  },
+  "clientip": {
+    "type": "ip"
+  },
+  "event.dataset": {
+    "type": "string",
+    "options": [
+      "sample_web_logs"
+    ]
+  },
+  "extension": {
+    "type": "string",
+    "options": [
+      "",
+      "css",
+      "deb",
+      "gz",
+      "rpm",
+      "zip"
+    ]
+  },
+  "geo.dest": {
+    "type": "string",
+    "options": ["CN","IN","US","ID","BR","PK","BD","NG","RU","MX","JP","VN","DE","PH","ET","EG","IR","TR","FR","TH","CD","MM","GB","IT","UA","CO","ES","AR","TZ","KR","ZA","KE","DZ","CA","SD","AF","PE","PL","GH","UG","IQ","VE","MZ","MA","TW","MG","NP","SA","YE","CI","LK","MY","RO","UZ","SY","CM","AU","CL","ZM","EC","KP","NE","NL","BF","AO","KZ","GN","CU","KH","SO","TD","BG","BO","GR","ML","SS","GT","BE","CZ","HU","MW","TN","HK","ZW","BI","BY","DO","SV","LA","RW","SN","TG","PT","RS","AT","BJ","CS","HN","HT","KG","SE","GE","JO","PR","SL","TJ","AE","AZ","LY","MD","NO","PG","PS","SK","DK","IE","NZ","PY","MR","CF","CH","ER","HR","BA","MN","UY","IL","LB","SG","AM","FI","LT","MK","NA","QA","TM","AL","CG","GA","NI","OM","EE","SI","CR","FJ","JM","KW","LR","MQ","RE","XK","GM","GW","LS","PA","TL","BH","BL","BT","BW","BZ","CY","GP","GQ","GY","JE","KM","LV","MO","MU","PF","SB","SZ"]
+  },
+  "geo.src": {
+    "type": "string",
+    "options": ["CN","IN","US","ID","BR","PK","BD","NG","RU","MX","JP","VN","DE","PH","ET","EG","IR","TR","FR","TH","CD","MM","GB","IT","UA","CO","ES","AR","TZ","KR","ZA","KE","DZ","CA","SD","AF","PE","PL","GH","UG","IQ","VE","MZ","MA","TW","MG","NP","SA","YE","CI","LK","MY","RO","UZ","SY","CM","AU","CL","ZM","EC","KP","NE","NL","BF","AO","KZ","GN","CU","KH","SO","TD","BG","BO","GR","ML","SS","GT","BE","CZ","HU","MW","TN","HK","ZW","BI","BY","DO","SV","LA","RW","SN","TG","PT","RS","AT","BJ","CS","HN","HT","KG","SE","GE","JO","PR","SL","TJ","AE","AZ","LY","MD","NO","PG","PS","SK","DK","IE","NZ","PY","MR","CF","CH","ER","HR","BA","MN","UY","IL","LB","SG","AM","FI","LT","MK","NA","QA","TM","AL","CG","GA","NI","OM","EE","SI","CR","FJ","JM","KW","LR","MQ","RE","XK","GM","GW","LS","PA","TL","BH","BL","BT","BW","BZ","CY","GP","GQ","GY","JE","KM","LV","MO","MU","PF","SB","SZ"]
+  },
+  "geo.srcdest": {
+    "type": "string",
+    "options": ["MK:MO","PE:GR","ZW:DK","GM:KW","MQ:GR","TG:AM","MM:TR","AF:JE","IL:KR","YE:HN","UZ:BG","SV:CM","EC:EC","HR:EC","GW:AT","NZ:AR","ER:AE","TD:AF","GR:BE","CH:SD","ZW:PH","ZM:GY","EE:TZ","MO:HK","AO:PL","PS:HU","SS:GH","CH:MY","CS:QA","RU:MW","UA:DE","RE:PT","NO:LS","SE:SS","LY:GB","BG:NE","VE:IT","LS:EE","CF:KE","ES:AL","CH:GE","LY:AU","TW:RW","NA:CN","SB:GH","ML:PH","LT:BR","KE:MD","LY:VE","CZ:BO","HR:UY","XK:SZ","MA:GM","GT:RS","FR:RO","LY:KZ","CH:GR","CU:BF","MG:CN","BZ:GR","MW:BF","LY:BO","PH:ER","HK:TW","SL:HR","ER:TZ","CU:CD","BL:ER","SB:IT","KG:TZ","LY:CL","XK:DE","IT:MA","KE:PR","GQ:NZ","CU:SO","BO:LV","MK:MA","SB:SV","CO:SY","GM:TL","BE:NA","TJ:TM","DZ:TL","QA:SO","CG:LK","CF:VN","LT:BY","DZ:TJ","DK:CG","GR:DZ","CG:IQ","NP:NA","NA:ID","PS:ML","UG:GY","LS:SD","OM:GB","QA:BG","AL:TR","LT:SO","RE:PG","PF:TR","XK:PH","NL:SO","FR:IT","SV:ES","PF:BR","UY:BR","GH:TW","PS:TJ","NZ:KE","JE:AF","FR:LR","MU:CU","ER:PA","CG:LV","BL:CR","EE:AL","DO:LR","UA:GB","TD:MO","HR:BT","PS:HT","NG:YE","GE:BW","ZA:TM","HU:ER","MQ:JP","JP:KW","GT:UG","UG:RO","HN:BT","MM:SN","IT:BY","AO:LA","JP:UZ","CG:UA","UG:EG","GE:LA","NA:EC","BA:BG","MW:JO","LY:BA","VE:KZ","PG:IL","MQ:SO","FI:KH","BL:GW","CD:MA","RO:NI","EG:LT","RS:IQ","BG:AZ","AE:BD","MO:YE","KW:BA","TZ:GY","HN:CA","IT:TN","TR:GN","EE:BO","GR:HK","CM:GB","BD:BH","MY:MO","SI:ZM","VE:TW","LT:PY","CF:PA","BT:JP","US:MK","YE:RS","OM:NO","AR:CD","CI:GY","AO:PA","NA:LS","AU:FI","FJ:BR","UA:BF","DZ:PT","MX:BI","HK:SD","PL:SY","GW:UZ","IL:JM","VN:FI","CA:GW","LY:KH","DZ:GN","HU:LB","IQ:AR","CH:CG","SN:GE","SS:GW","KH:SK","PT:VN","PT:BY","DE:TG","HN:US","BE:JP","HU:GY","LT:SB","SL:MZ","ES:MQ","CH:RE","VE:KZ","FJ:LR","BY:LA","SK:BL","TJ:ZA","TW:DZ","MR:BE","SG:GN","SK:CF","HK:MX","CF:ES","AU:CN","MD:PF","AM:PF","FI:EC","FJ:ML","EG:CM","SD:BI","VN:KH","JP:UY","ES:UY","ID:ER","VE:KR","CS:CY","PL:PT","OM:LK","ML:GW","MN:SN","IN:BF","UY:MQ","AZ:PE","AT:AZ","DZ:SK","BR:BH","CA:LV","KG:TL","SE:BG","MZ:MR","PS:SY","RE:AF","RO:GT","BZ:AZ","SD:TZ","GA:CL","RU:PT","GB:TL","RS:BT","MX:ZW","ZW:PG","HT:HT","UA:HK","MW:BD","RE:LT","GT:RO","BD:DE","CH:LT","SB:GE","MD:BA","MQ:SA","CO:PF","BO:BT","PY:CF","TH:CO","SI:CO","MA:BW","LV:ES","CS:CZ","IQ:KE","ET:LB","BT:EE","JE:BY","MA:DK","UY:AM","KG:MX","TL:US","BA:TZ","PS:AO","SZ:PG","PE:ES","GP:GW","BF:RE","LV:GQ","GR:CF","DZ:GP","QA:SZ","JE:QA","GA:SZ","TR:PG","TG:AT","KZ:GA","CL:PA","SB:MQ","CS:VN","ET:SO","GE:KH","GM:SD","NO:BF","BE:PF","GW:SO","MG:AF","ZM:KG","IQ:AF","NA:SA","NP:KH","GQ:QA","GM:TD","LT:XK","MR:LT","IR:CY","CZ:CO","NP:CM","DO:TJ","HU:TN","TN:MM","PA:JM","SB:LV","ZW:ID","EG:KR","BR:AM","AZ:JP","GT:ZM","EC:BY","SY:US","MQ:AE","BJ:CS","KH:FJ","UG:LB","SY:LS","LV:KR","FR:MM","LV:PE","MU:RS","HU:PA","GW:DO","BY:RS","SI:AO","LB:RO","NO:FR","PT:ZA","DZ:BW","EG:DE","PF:CF","LS:MZ","GW:BO","PL:BO","BA:BA","EE:JP","ZA:SB","CL:HN","SI:KR","GT:HN","BY:ZM","BL:BG","AM:JP","BA:TZ","PS:VE","LR:TJ","AM:JO","BT:DO","LS:TW","ZW:HN","KP:MM","BR:LT","TL:XK","IR:PF","VN:SZ","SI:SA","UY:EG","EG:LS","HU:CM","GM:VE","GY:ZW","MY:LK","AF:LK","MY:CU","RO:JP","BZ:BZ","CS:ZA","SA:NO","CD:CF","PT:HT","VN:PY","CR:TW","ML:SL","SL:BE","HK:AF","PA:TW","CG:MG","TR:CG","SI:AF","KM:KW","CL:KW","ES:EG","ID:RW","PE:TR","AM:PL","GR:KW","EC:PY","PG:HU","SL:NZ","ZA:LA","LT:GY","PL:LA","BL:MO","DZ:ER","GN:NA","RO:AT","MY:AE","PR:FJ","AU:ES","GW:NO","IN:AE","CZ:NZ","NO:PK","NL:UA","SV:GR","FI:GR","RU:GQ","BY:ZA","PY:KM","CD:ET","HN:SN","TR:PT","IL:FR","AR:MM","ZW:AZ","PY:LY","NI:MY","GM:TL","MZ:BO","TN:SZ","LB:VE","BY:TN","TZ:UY","MR:AU","AU:AM","PH:AT","GN:BO","CY:CA","PF:NG","MZ:RU","MD:JO","ZA:TW","VN:XK","CR:BT","EE:KW","GB:SZ","RO:US","ER:ZW","GR:ZM","NE:SG","HR:MM","CS:CR","HU:MQ","TR:PT","LB:MW","MA:KR","CH:KG","GA:BO","TM:HN","GQ:BY","MZ:GP","AT:CM","ET:GM","TM:MA","TJ:CG","SO:RE","DO:MQ","CF:EG","BJ:SA","FR:FR","SB:AZ","MZ:CS","ER:IE","US:HU","AU:PG","KE:TJ","RW:GW","YE:MZ","GB:TW","PE:UA","LK:CA","SY:MO","UZ:BD","LB:RU","RO:BH","MA:HN","AU:GM","LR:CD","NI:LA","GT:TN","IL:CR","KP:BH"]
+  },
+  "host": {
+    "type": "string",
+    "options": [
+      "artifacts.elastic.co",
+      "www.elastic.co",
+      "cdn.elastic-elastic-elastic.org",
+      "elastic-elastic-elastic.org"
+    ]
+  },
+  "ip": {
+    "type": "ip"
+  },
+  "machine.os": {
+    "type": "string",
+    "options": [
+      "ios",
+      "osx",
+      "win 7",
+      "win 8",
+      "win xp"
+    ]
+  },
+  "machine.ram": {
+    "type": "integer",
+    "min": 2147483648,
+    "max": 32212254720
+  },
+  "memory": {
+    "type": "integer",
+    "min": 0,
+    "max": 397160
+  },
+  "phpmemory": {
+    "type": "integer",
+    "min": 0,
+    "max": 397160
+  },
+  "referer": {
+    "type": "string"
+  },
+  "request": {
+    "type": "text"
+  },
+  "response": {
+    "type": "string",
+    "options": [
+      "200",
+      "404",
+      "503"
+    ]
+  },
+  "tags": {
+    "type": "string",
+    "options": [
+      "error",
+      "info",
+      "login",
+      "security",
+      "success",
+      "warning"
+    ]
+  },
+  "url": {
+    "type": "text",
+    "size": 10
+  }
+}
