@@ -1,6 +1,8 @@
 const {Client} = require('@elastic/elasticsearch');
+const {username, password} = require('./credentials');
 const client = new Client({
     node: 'http://elastic:changeme@localhost:9200'
+    // node: `https://${username}:${password}@seven-sixteen.es.westus2.azure.elastic-cloud.com:9243`
 });
 const config = require('./config');
 
@@ -8,7 +10,7 @@ const config = require('./config');
 // - Lots of data in single index vs. many indices
 // - Flattened, nested, join, range types
 
-(async function generateDocs(index = 'kibana_sample_data_logs', size = 1000000) {
+(async function generateDocs(index = 'es-generate', size = 1) {
     const docs = Array(size).fill(null).map(() => generateDoc(index, config));
     await bulkInsert(docs);
 })();
@@ -79,13 +81,14 @@ async function bulkInsert(docs = [], size = 5000) {
     const batch = docs.splice(0, size);
     console.log(`Indexing ${batch.length} docs...`);
 
-    const body = batch.reduce((actions, {index, body, id}) => actions.concat([
-        {index: {_index: index, _id: id }},
+    const body = batch.reduce((actions, {index, body}) => actions.concat([
+        {index: {_index: index }},
         body
     ]), []);
 
     try {
-        await client.bulk({body});
+        const response = await client.bulk({body});
+        console.log(JSON.stringify(response));
     } catch (e) {
         console.log(e);
     }
