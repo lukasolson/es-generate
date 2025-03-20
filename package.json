@@ -6,6 +6,8 @@
   "author": "Lukas Olson <olson.lukas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@elastic/elasticsearch": "^7.16.0"
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/elasticsearch": "^7.16.0",
+    "moment": "^2.30.1"
   }
 }

@@ -1,8 +1,8 @@
 {
   "timestamp": {
     "type": "date",
-    "min": 1611684538938,
-    "max": 1644430138938
+    "min": "now-52w",
+    "max": "now"
   },
   "agent": {
     "type": "text",
